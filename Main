@@ -3,5 +3,7 @@ public class Main {
         PalindromeNumber palindromeNumber = new PalindromeNumber();
         System.out.println(palindromeNumber.isPalindromeNumber(1001));
 
+        RomanToInteger romanToInteger = new RomanToInteger();
+        System.out.println(romanToInteger.romanToInt("MMMCMXCIX"));
     }
 }
