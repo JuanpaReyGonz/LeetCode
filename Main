@@ -5,5 +5,10 @@ public class Main {
 
         RomanToInteger romanToInteger = new RomanToInteger();
         System.out.println(romanToInteger.romanToInt("MMMCMXCIX"));
+        
+        LongestCommonPrefix longestCommonPrefix = new LongestCommonPrefix();
+        String[] data = {""};
+        //String[] data = {"aguaa", "aguaaaaaa", "aguaaaaaaaaaaa", "aguaaaaaaaaaaaaaa"};
+        System.out.println(longestCommonPrefix.longestCommonPrefix(data));
     }
 }
